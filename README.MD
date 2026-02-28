@@ -30,14 +30,14 @@ Follow the steps:
 
 ```bash
 mkdir -p ~/.config/gtk-3.0
-cd  .config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
+cp  .config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 ```
 
 2. gtk-4.0 config
 
 ```bash
 mkdir -p ~/.config/gtk-4.0
-cd  .config/gtk-4.0/settings.ini ~/.config/gtk-4.0/
+cp  .config/gtk-4.0/settings.ini ~/.config/gtk-4.0/
 ```
 
 <!-- ### [niri](https://niri-wm.github.io/niri/)
