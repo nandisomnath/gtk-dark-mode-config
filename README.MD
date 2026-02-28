@@ -6,22 +6,25 @@ and gtk-4.0 , we will config it differently using
 `gsettings` if possible. Also we will use shell env variable for basic configs
 
 
-# Copy files
+# Clone 
 
-clone this repo to copy the files
+clone this repo to copy config files
 
 ```bash
 git clone https://github.com/nandisomnath/gtk-dark-mode-config.git
 cd gtk-dark-mode-config
 ```
 
-after this run other commands
-
+your current directory have to `gtk-dark-mode-config` to run other commands
 
 
 ## Configuration
 
 We will make the config as general as possible.
+
+> [!TIP]
+> For gnome you should check `dconf` settings. gnome use `dconf` for 
+> their global setting including theme.
 
 you can use almost all desktop environments for this 
 Follow the steps:
@@ -39,13 +42,3 @@ cp  .config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 mkdir -p ~/.config/gtk-4.0
 cp  .config/gtk-4.0/settings.ini ~/.config/gtk-4.0/
 ```
-
-<!-- ### [niri](https://niri-wm.github.io/niri/)
-
-niri is a window manager. let see the config -->
-
-
-
-
-
-
